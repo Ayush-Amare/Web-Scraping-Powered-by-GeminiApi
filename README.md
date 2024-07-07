@@ -7,7 +7,7 @@ unstructured data into a structured format (such as a spreadsheet or a database)
 - Feature 2 : To sum up or compare the information present on 2 different Website at once.
 - Feature 3 : Implemented Prompt Scraping to easily target a particular information from the targeted website to save time and only extract the required Information.
 
-#How to Execute? 
+# How to Execute? 
 - Download the requiments from requirement.txt
 - open app.py
 - In terminal type " streamlit run app.py "
