@@ -247,7 +247,7 @@ def normal_parse():
     
     st.title("Web Scrapper")
 
-    genai.configure(api_key="AIzaSyCBsuMDMDiBG3cXurSCsj0ZV4VBgyKk2oA")
+    genai.configure(api_key=" Your Api Key here ")
 
     url_option = st.radio("Select the number of URLs:", ("One URL", "Two URLs"))
 
@@ -261,7 +261,7 @@ def normal_parse():
             mwtd(url1,url2)
 
 def Promptparsing():
-    genai.configure(api_key="AIzaSyCBsuMDMDiBG3cXurSCsj0ZV4VBgyKk2oA")
+    genai.configure(api_key=" Your Api Key here ") #-----------------------------------------------------------------------------------
 
     def send_message_to_gemini(message , titles ,paragraphs):
         
