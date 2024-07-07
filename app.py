@@ -247,7 +247,8 @@ def normal_parse():
     
     st.title("Web Scrapper")
 
-    genai.configure(api_key=" Your Api Key here ")
+    genai.configure(api_key=" Your Api Key here ") #-----------------------------------------------------------------------------------
+
 
     url_option = st.radio("Select the number of URLs:", ("One URL", "Two URLs"))
 
